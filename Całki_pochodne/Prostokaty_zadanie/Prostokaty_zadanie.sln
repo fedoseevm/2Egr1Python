@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Prostokaty_zadanie", "Prostokaty_zadanie.pyproj", "{996923E1-FC85-4BA6-B71D-2CBF8D7B5A0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996923E1-FC85-4BA6-B71D-2CBF8D7B5A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996923E1-FC85-4BA6-B71D-2CBF8D7B5A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {895F49D2-74B4-412F-B568-DBF7D5D83922}
+	EndGlobalSection
+EndGlobal
