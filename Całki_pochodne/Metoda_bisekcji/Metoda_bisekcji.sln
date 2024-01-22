@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Metoda_bisekcji", "Metoda_bisekcji.pyproj", "{61AA7EC5-8C86-438A-9BC4-CFB5AAA1B54A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AA7EC5-8C86-438A-9BC4-CFB5AAA1B54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA7EC5-8C86-438A-9BC4-CFB5AAA1B54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B1FE4B3-1E19-4FA5-B2F6-6CECD7B486BF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Wykresy_1", "Wykresy_1.pyproj", "{5ED2A740-3CCC-43F7-8834-56BCDA9F3DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED2A740-3CCC-43F7-8834-56BCDA9F3DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED2A740-3CCC-43F7-8834-56BCDA9F3DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD556B33-CC40-45EA-8A86-48A9BF2E60C4}
+	EndGlobalSection
+EndGlobal
