@@ -2,12 +2,33 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-def f(x):
-    return x**0.5 + 1
+#Installation:
+# In Solution Explorer
+# <Project name> -> Python Environments
+# RMB on Python Environments -> View all Python Environments -> Packages(PyPl) -> search and install packages
 
-x = np.linspace(-5, 16)
-plt. plot(x, f(x), color='black')
+#def f(x):
+#    return x**0.5 + 1
 
-plt.show()
+#x = np.linspace(2, 16)
+#plt.plot(x, f(x), color='black')
+
+#plt.show()
 
 # Metoda bisekcji
+
+def f(x):
+    return x**2 - 3 * x - 4
+
+x = np.linspace(-7, 10)
+plt.plot(x, f(x), color='black')
+plt.show()
+
+def calka(p, k, n):
+    dx = (k - p) / n
+    suma = 0
+    for i in range(n):
+        suma += f(p + i * dx + dx / 2) * dx
+    return suma
+
+print(calka(4, 6, 4))
