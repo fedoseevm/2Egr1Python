@@ -15,8 +15,6 @@ import matplotlib.pyplot as plt
 
 #plt.show()
 
-# Metoda bisekcji
-
 def f(x):
     return x**2 - 3 * x - 4
 
