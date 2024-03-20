@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Konwersja_bin-dec", "Konwersja_bin-dec.pyproj", "{061BCEEA-601E-42D8-B41A-13127CF108E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061BCEEA-601E-42D8-B41A-13127CF108E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061BCEEA-601E-42D8-B41A-13127CF108E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F60C077-175E-4FF2-869F-A20F80CA3D0F}
+	EndGlobalSection
+EndGlobal
