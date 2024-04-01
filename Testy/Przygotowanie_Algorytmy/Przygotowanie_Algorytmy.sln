@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Przygotowanie_Algorytmy", "Przygotowanie_Algorytmy.pyproj", "{DB8B5372-8281-49D1-AB3C-B3B6EA07015E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB8B5372-8281-49D1-AB3C-B3B6EA07015E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8B5372-8281-49D1-AB3C-B3B6EA07015E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85931178-6678-46F2-B013-D660791A6AC5}
+	EndGlobalSection
+EndGlobal
