@@ -3,9 +3,6 @@
 def newton_raphson1(p, epsilon):
     a = p
     b = 1
-    #for i in range(n):
-    #    a = (a + b) / 2
-    #    b = p / a
     while a - b > epsilon:
         a = (a + b) / 2
         b = p / a

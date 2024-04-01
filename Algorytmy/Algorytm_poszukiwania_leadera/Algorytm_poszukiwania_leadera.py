@@ -19,22 +19,25 @@ def leader(Table):
             leader = Table[i]
             ilosc = 1
         else:
-            if Table[1] == leader:
+            if Table[i] == leader:
                 ilosc += 1
             else:
                 ilosc -= 1
 
-    ilosc_leaderow = 0
     if ilosc == 0:
         print("Brak leadera")
     else:
+        ilosc_leaderow = 0
         for i in range(len(Table)):
             if Table[i] == leader:
                 ilosc_leaderow += 1
-    if ilosc_leaderow > len(Table) // 2:
-        print(f"Leader: {leader}")
+        if ilosc_leaderow > len(Table) // 2:
+            print(f"Leader: {leader}")
+        else:
+            print("Brak leadera")
 
-print(leader(Table))
+
+leader(Table)
 print("\n")
 
 # Inna wersja, polegajaca na policzeniu wystapien liczb za pomoca innej tablicy, nastepnie sprawdzajac, czy ilosc najczesciej wystepujacego elementu jest wieksza od polowy ilosci wszystkich liczb
@@ -54,4 +57,4 @@ def leader2(Table):
     else:
         print("Brak leadera")
 
-print(leader2(Table))
+leader2(Table)
