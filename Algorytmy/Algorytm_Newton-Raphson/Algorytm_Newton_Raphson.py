@@ -1,3 +1,4 @@
+# Algorytm Newton-Raphson - poszukiwanie pierwiastka z liczby
 # p - liczba, z ktorej szukamy pierwiastek
 # n - ilosc krokow
 def newton_raphson1(p, epsilon):

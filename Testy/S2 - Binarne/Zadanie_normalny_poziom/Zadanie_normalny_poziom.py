@@ -11,7 +11,7 @@ def AddBinarySameLen():
     if suma > 0:
         wynik = str(suma) + wynik
 
-    #r = 0                                             # Rozwiazanie Pana Profesora Ibrahima Ibn Nowaka
+    #r = 0                                             # Rozwiazanie wersja 2
     #for i in range(len(bin1)):
     #    suma = int(bin1[-i-1]) + int(bin2[-i-1]) + r
     #    m = suma % 2
@@ -47,8 +47,25 @@ def AddBinaryDiffLen():
 #print(AddBinaryDiffLen())
 
 # 3. Wypisz wszystkie liczby binarne szesciocyfrowe, w ktorych liczba jedynek jest 2 razy wieksza od liczby zer.
-
-
+# 100111
+# 101011
+# 101101
+# 101110
+# 110011
+# 110101
+# 110110
+# 111001
+# 111010
+# 111100
+def zad3():
+    for i in range(1, 5):
+        liczba = list("111111")  # Konwertacja do listy, aby miec mozliwosc jej edycji
+        liczba[i] = "0"
+        for j in range(i+1, 6):
+            liczba[j] = "0"
+            print(''.join(liczba))  # Przeksztalcenie do stringa i wypisywanie
+            liczba[j] = "1"  # Ustawie 1 zamiast 0, aby przy kolejner iteracji zera sie nie zostawaly
+#zad3()
 
 
 # Szybkie potegowanie
@@ -62,7 +79,7 @@ def FastPow(a, n):
         n = n // 2
     return wynik
 
-#print(FastPow(2,9))
+print(FastPow(2,9))
 
 
 def FastPowReku(a, n):
@@ -71,4 +88,4 @@ def FastPowReku(a, n):
         return FastPowReku(a * a, n // 2) * a
     return FastPowReku(a * a, n // 2)
 
-print(FastPowReku(2, 7))
+print(FastPowReku(2, 9))

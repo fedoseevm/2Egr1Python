@@ -6,7 +6,7 @@ def f(x):
     return x ** 2 - 3 * x - 4
 
 # Prostokaty
-def prostokatyStart(a, b, n):   # n - olosc przedzialow
+def prostokatyStart(a, b, n):   # n - ilosc przedzialow
     dx = (b - a) / n
     suma = 0
     for i in range(n):
