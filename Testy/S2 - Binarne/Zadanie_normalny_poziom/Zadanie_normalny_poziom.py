@@ -89,3 +89,15 @@ def FastPowReku(a, n):
     return FastPowReku(a * a, n // 2)
 
 print(FastPowReku(2, 9))
+
+
+def addbin(bin1, bin2):
+    wynik = ""
+    suma = 0
+    for i in range(len(bin2)):
+        suma += int(bin1[-1-i]) + int(bin1[-1-i])
+        wynik = str(suma % 2) + wynik
+        suma = suma // 2
+    if suma > 0:
+        wynik = str(suma) + wynik
+    return wynik
